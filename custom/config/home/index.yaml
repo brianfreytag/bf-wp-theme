@@ -1,5 +1,5 @@
 name: home
-timestamp: 1587144510
+timestamp: 1587152205
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -31,17 +31,6 @@ particles:
     social-3579: Social
   owlcarousel:
     owlcarousel-2455: 'Owl Carousel'
-  custom:
-    custom-5807: Intro
-    custom-3119: Features
-    custom-7658: 'Customer Testimonials'
-    custom-6355: 'Develop CMS themes quickly'
-  contenttabs:
-    contenttabs-3854: 'Content Tabs'
-  contentcubes:
-    contentcubes-7850: 'Content Cubes'
-  content:
-    system-content-6629: 'Page Content'
   copyright:
     copyright-7126: Copyright
   horizontalmenu:

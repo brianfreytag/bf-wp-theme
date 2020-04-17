@@ -8,7 +8,7 @@
  * http:/ /www.gnu.org/licenses/gpl-2.0.html
  */
 
-add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
-function my_theme_enqueue_styles() {
+add_action( 'wp_enqueue_scripts', 'bf_wp_theme_enqueue_styles' );
+function bf_wp_theme_enqueue_styles() {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
