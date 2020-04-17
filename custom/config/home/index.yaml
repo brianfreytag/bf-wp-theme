@@ -1,5 +1,5 @@
 name: home
-timestamp: 1587086248
+timestamp: 1587144510
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -20,6 +20,15 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
+  messages:
+    system-messages-2116: 'System Messages'
+  logo:
+    logo-7775: 'Logo / Image'
+    logo-8083: 'Logo / Image'
+  menu:
+    menu-6378: Menu
+  social:
+    social-3579: Social
   owlcarousel:
     owlcarousel-2455: 'Owl Carousel'
   custom:
@@ -31,15 +40,8 @@ particles:
     contenttabs-3854: 'Content Tabs'
   contentcubes:
     contentcubes-7850: 'Content Cubes'
-  messages:
-    system-messages-2116: 'System Messages'
-  logo:
-    logo-7775: 'Logo / Image'
-    logo-8083: 'Logo / Image'
-  menu:
-    menu-6378: Menu
-  social:
-    social-3579: Social
+  content:
+    system-content-6629: 'Page Content'
   copyright:
     copyright-7126: Copyright
   horizontalmenu:
@@ -51,14 +53,14 @@ particles:
 inherit:
   default:
     navigation: navigation
-    footer: footer
-    offcanvas: offcanvas
     system-messages-2116: system-messages-7972
     logo-7775: logo-9608
     menu-6378: menu-6409
     social-3579: social-3171
+    footer: footer
     logo-8083: logo-9571
     copyright-7126: copyright-1736
     horizontalmenu-3458: horizontalmenu-9034
     totop-1904: totop-8670
+    offcanvas: offcanvas
     mobile-menu-3073: mobile-menu-5697
