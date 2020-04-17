@@ -78,16 +78,21 @@ structure:
   aside:
     attributes:
       class: ''
+      variations: ''
     block:
       fixed: '1'
   mainbar:
     type: section
     subtype: main
+    attributes:
+      class: ''
+      variations: ''
   sidebar:
     type: section
     subtype: aside
     attributes:
       class: ''
+      variations: ''
     block:
       fixed: '1'
   container-main:

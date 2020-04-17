@@ -17,7 +17,9 @@ layout:
   /container-main/:
     -
       -
-        'mainbar 75': {  }
+        'mainbar 75':
+          -
+            - system-content-1113
       -
         'sidebar 25': {  }
   footer: {  }
