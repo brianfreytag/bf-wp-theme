@@ -1,0 +1,32 @@
+<?php
+/**
+ * @package   BrianFreytag.com
+ * @author    Brian Freytag http://www.brianfreytag.com
+ * @copyright Copyright (C)2020 Brian Freytag
+ * @license   GNU/GPLv2 and later
+ *
+ * http:/ /www.gnu.org/licenses/gpl-2.0.html
+ */
+
+class_exists('\\Gantry\\Framework\\Gantry') or die;
+
+// Define the template.
+class GantryTheme extends \Gantry\Framework\Theme
+{
+}
+
+// Initialize theme stream.
+$gantry['platform']->set(
+	'streams.gantry-theme.prefixes',
+	array('' => array(
+		"gantry-themes://{$gantry['theme.name']}/custom",
+		"gantry-themes://{$gantry['theme.name']}",
+		"gantry-themes://{$gantry['theme.name']}/common",
+		"gantry-themes://{$gantry['theme.parent']}",
+		"gantry-themes://{$gantry['theme.parent']}/common"
+	))
+);
+// Define Gantry services.
+$gantry['theme'] = function ($c) {
+    return new GantryTheme($c['theme.path'], $c['theme.name']);
+};
