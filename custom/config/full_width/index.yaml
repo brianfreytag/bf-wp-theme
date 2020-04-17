@@ -1,11 +1,13 @@
 name: full_width
-timestamp: 1587155083
+timestamp: 1587159481
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
   timestamp: 1587067649
-positions: {  }
+positions:
+  aside: Aside
+  sidebar: Sidebar
 sections:
   navigation: Navigation
   intro: Intro
@@ -22,31 +24,32 @@ sections:
   offcanvas: Offcanvas
 particles:
   messages:
-    system-messages-7923: 'System Messages'
+    system-messages-7264: 'System Messages'
   logo:
-    logo-8633: 'Logo / Image'
-    logo-9131: 'Logo / Image'
+    logo-1269: 'Logo / Image'
+    logo-8108: 'Logo / Image'
   menu:
-    menu-4590: Menu
+    menu-8916: Menu
   social:
-    social-7857: Social
+    social-4912: Social
+  position:
+    position-position-4734: Aside
+    position-position-3949: Sidebar
   content:
     system-content-1587: 'Page Content'
   copyright:
-    copyright-6803: Copyright
-  horizontalmenu:
-    horizontalmenu-3655: 'Horizontal Menu'
+    copyright-6225: Copyright
   totop:
-    totop-9279: 'To Top'
+    totop-5566: 'To Top'
   mobile-menu:
-    mobile-menu-7427: Mobile-menu
+    mobile-menu-3391: Mobile-menu
 inherit:
   default:
     navigation: navigation
-    system-messages-7923: system-messages-7972
-    logo-8633: logo-9608
-    menu-4590: menu-6409
-    social-7857: social-3171
+    system-messages-7264: system-messages-7972
+    logo-1269: logo-9608
+    menu-8916: menu-6409
+    social-4912: social-3171
     header: header
     intro: intro
     features: features
@@ -55,9 +58,8 @@ inherit:
     testimonials: testimonials
     expanded: expanded
     footer: footer
-    logo-9131: logo-9571
-    copyright-6803: copyright-1736
-    horizontalmenu-3655: horizontalmenu-9034
-    totop-9279: totop-8670
+    logo-8108: logo-9571
+    copyright-6225: copyright-1736
+    totop-5566: totop-8670
     offcanvas: offcanvas
-    mobile-menu-7427: mobile-menu-5697
+    mobile-menu-3391: mobile-menu-5697

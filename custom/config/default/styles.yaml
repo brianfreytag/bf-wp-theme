@@ -6,7 +6,7 @@ accent:
   color-1: '#4db2b3'
   color-2: '#8f4dae'
 font:
-  family-default: 'family=Fenix&subset=latin,latin-ext'
+  family-default: family=Ledger
   family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
 link:
   regular: '#4db2b3'

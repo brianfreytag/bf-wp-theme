@@ -34,10 +34,9 @@ layout:
             - position-position-3949
   /footer/:
     -
-      - 'logo-9571 10'
-      - 'copyright-1736 30'
-      - 'horizontalmenu-9034 45'
-      - 'totop-8670 15'
+      - 'logo-9571 8'
+      - 'copyright-1736 62'
+      - 'totop-8670 30'
   /offcanvas/:
     -
       - mobile-menu-5697
@@ -163,21 +162,5 @@ content:
       target: _parent
       additional:
         text: 'Built with <a href="https://gantry.org" target="_blank">Gantry 5</a>'
-  horizontalmenu-9034:
-    title: 'Horizontal Menu'
-    attributes:
-      items:
-        -
-          text: Gantry
-          link: 'http://gantry.org'
-          name: Gantry
-        -
-          text: Documentation
-          link: 'http://docs.gantry.org'
-          name: Documentation
-        -
-          text: Download
-          link: 'http://gantry.org/downloads'
-          name: Download
   totop-8670:
     title: 'To Top'

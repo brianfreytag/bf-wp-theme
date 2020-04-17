@@ -1,4 +1,4 @@
 enabled: '1'
-type: content
-gexcerpt-length: '50'
-columns: size-100
+type: gexcerpt
+gexcerpt-length: '125'
+columns: size-33-3

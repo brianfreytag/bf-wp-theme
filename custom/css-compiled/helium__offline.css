@@ -8,7 +8,7 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
-@import url('//fonts.googleapis.com/css?family=Fenix&subset=latin,latin-ext');
+@import url('//fonts.googleapis.com/css?family=Ledger');
 /* line 2, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 12, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 2, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
@@ -203,12 +203,12 @@ a:hover {
 }
 /* line 5, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
 body {
-  font-family: "Fenix";
+  font-family: "Ledger";
   font-weight: 400;
 }
 /* line 11, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Fenix";
+  font-family: "Ledger";
   font-weight: 400;
 }
 /* line 16, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
@@ -3269,7 +3269,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 390, wp-content/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
 .g-owlcarousel .g-owlcarousel-item-wrapper .g-owlcarousel-item-content-container .g-owlcarousel-item-content-wrapper .g-owlcarousel-item-content .g-owlcarousel-item-title {
-  font-family: "Fenix";
+  font-family: "Ledger";
   font-size: 3.5rem;
   line-height: 4rem;
   font-weight: 500;
