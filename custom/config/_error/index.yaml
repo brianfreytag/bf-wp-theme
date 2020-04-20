@@ -1,5 +1,5 @@
 name: _error
-timestamp: 1587155907
+timestamp: 1587186925
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -23,26 +23,45 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  messages:
-    system-messages-7972: 'System Messages'
-  logo:
-    logo-9608: 'Logo / Image'
-    logo-9571: 'Logo / Image'
-  menu:
-    menu-6409: Menu
-  social:
-    social-3171: Social
   position:
     position-position-4734: Aside
     position-position-3949: Sidebar
   content:
     system-content-1587: 'Page Content'
+  messages:
+    system-messages-4776: 'System Messages'
+  logo:
+    logo-2762: 'Logo / Image'
+    logo-5816: 'Logo / Image'
+  menu:
+    menu-9803: Menu
+    menu-2923: 'Footer Menu'
+  social:
+    social-6001: Social
   copyright:
-    copyright-1736: Copyright
-  horizontalmenu:
-    horizontalmenu-9034: 'Horizontal Menu'
+    copyright-4229: Copyright
   totop:
-    totop-8670: 'To Top'
+    totop-1665: 'To Top'
   mobile-menu:
-    mobile-menu-5697: Mobile-menu
-inherit: {  }
+    mobile-menu-2842: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    header: header
+    intro: intro
+    features: features
+    utility: utility
+    above: above
+    testimonials: testimonials
+    expanded: expanded
+    footer: footer
+    offcanvas: offcanvas
+    system-messages-4776: system-messages-7972
+    logo-2762: logo-9608
+    menu-9803: menu-6409
+    social-6001: social-3171
+    logo-5816: logo-9571
+    copyright-4229: copyright-1736
+    menu-2923: menu-1477
+    totop-1665: totop-8670
+    mobile-menu-2842: mobile-menu-5697

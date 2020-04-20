@@ -1,5 +1,5 @@
 name: full_width
-timestamp: 1587159481
+timestamp: 1587186925
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -23,6 +23,11 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
+  position:
+    position-position-4734: Aside
+    position-position-3949: Sidebar
+  content:
+    system-content-1587: 'Page Content'
   messages:
     system-messages-7264: 'System Messages'
   logo:
@@ -30,13 +35,9 @@ particles:
     logo-8108: 'Logo / Image'
   menu:
     menu-8916: Menu
+    menu-3414: 'Footer Menu'
   social:
     social-4912: Social
-  position:
-    position-position-4734: Aside
-    position-position-3949: Sidebar
-  content:
-    system-content-1587: 'Page Content'
   copyright:
     copyright-6225: Copyright
   totop:
@@ -46,10 +47,6 @@ particles:
 inherit:
   default:
     navigation: navigation
-    system-messages-7264: system-messages-7972
-    logo-1269: logo-9608
-    menu-8916: menu-6409
-    social-4912: social-3171
     header: header
     intro: intro
     features: features
@@ -58,8 +55,13 @@ inherit:
     testimonials: testimonials
     expanded: expanded
     footer: footer
+    offcanvas: offcanvas
+    system-messages-7264: system-messages-7972
+    logo-1269: logo-9608
+    menu-8916: menu-6409
+    social-4912: social-3171
     logo-8108: logo-9571
     copyright-6225: copyright-1736
+    menu-3414: menu-1477
     totop-5566: totop-8670
-    offcanvas: offcanvas
     mobile-menu-3391: mobile-menu-5697

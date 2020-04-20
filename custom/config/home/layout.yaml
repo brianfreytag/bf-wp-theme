@@ -11,7 +11,9 @@ layout:
   /intro/: {  }
   /features/: {  }
   /utility/: {  }
-  /above/: {  }
+  /above/:
+    -
+      - contentcubes-7550
   /testimonials/: {  }
   /expanded/: {  }
   /container-main/:
@@ -21,7 +23,9 @@ layout:
           -
             - system-content-1113
       -
-        'sidebar 25': {  }
+        'sidebar 25':
+          -
+            - position-position-7291
   footer: {  }
   offcanvas: {  }
 structure:
@@ -89,28 +93,86 @@ content:
     title: 'Owl Carousel'
     attributes:
       class: ''
-      nav: disable
+      nav: enable
       dots: enable
       autoplay: enable
-      autoplaySpeed: ''
+      autoplaySpeed: '10000'
+      imageOverlay: enable
       items:
         -
           class: ''
           image: 'gantry-media://header/Detroit-Michigan.jpg'
-          title: '<img src="gantry-media://2020/04/smile.png" style="width: 250px; margin: auto;">Welcome to my Site!'
-          desc: 'Welcome to BrianFreytag.com. Get to learn more about me!'
-          link: ''
+          title: 'Welcome to BrianFreytag.com'
+          desc: "I’m a security-conscience, solution-focused integration specialist, and\nleader of software engineering teams in the creation and maintaining of\nproprietary business systems applications."
+          link: 'https://brianfreytag.com/resume'
           linktext: 'Check Out My Resume'
           buttonclass: button-outline
           disable: '0'
           name: Me
         -
           class: ''
+          image: 'gantry-media://header/img01.jpg'
+          title: Projects
+          desc: 'Curious about what I work on? Check out some of my Open Source projects!'
+          link: '#projects'
+          linktext: 'Check them out'
+          buttonclass: button-outline
+          disable: '0'
+          name: Projects
+        -
+          class: ''
           image: 'gantry-media://header/Detroit-Michigan.jpg'
-          title: '<img src="gantry-media://2020/04/ultipro.png" style="width:250px; margin: auto;">Ulitpro SDK for PHP (Unofficial)'
+          title: 'Ulitpro SDK for PHP (Unofficial)'
           desc: 'Having trouble with Ultipro''s API? This will help!'
           link: 'https://github.com/brianfreytag/ultipro-sdk-php'
           linktext: 'Download Now'
           buttonclass: button-outline
           disable: '0'
           name: Ultipro
+        -
+          class: ''
+          image: 'gantry-media://header/Detroit-Michigan.jpg'
+          title: Blog
+          desc: 'I write about things. You can read them.'
+          link: '#blog-posts-hp'
+          linktext: 'Read My Things'
+          buttonclass: button-outline
+          disable: '0'
+          name: Blog
+  contentcubes-7550:
+    title: Projects
+    attributes:
+      title: 'Check Out My Projects'
+      items:
+        -
+          image: 'gantry-media://above/ultipro_sdk.png'
+          imageposition: left
+          label: PHP
+          title: 'Ultipro SDK for PHP (Unofficial)'
+          tags: {  }
+          link: 'https://github.com/brianfreytag/ultipro-sdk-php'
+          linktext: '&rarr;'
+          buttonclass: ''
+          buttontarget: _blank
+          name: 'Ultipro SDK'
+        -
+          image: 'gantry-media://above/img02.jpeg'
+          imageposition: right
+          label: PHP
+          title: 'PHP Bijective Library'
+          tags: {  }
+          link: 'https://github.com/brianfreytag/php-bijective'
+          linktext: '&rarr;'
+          buttonclass: ''
+          buttontarget: _blank
+          name: 'PHP Bijective'
+    block:
+      id: projects
+  system-content-1113:
+    block:
+      id: blog-posts-hp
+  position-position-7291:
+    title: 'Widget Position'
+    attributes:
+      key: aidebar
+      chrome: ''

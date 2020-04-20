@@ -1,4 +1,4 @@
 enabled: '1'
-link: '1'
-format: 'j F Y'
+link: '0'
+format: 'l, F d, Y'
 prefix: ''
