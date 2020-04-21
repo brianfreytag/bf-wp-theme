@@ -1,0 +1,152 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1587067649
+layout:
+  navigation: {  }
+  header: {  }
+  intro: {  }
+  features: {  }
+  utility: {  }
+  above: {  }
+  testimonials: {  }
+  expanded: {  }
+  /container-main/:
+    -
+      -
+        'aside 25': {  }
+      -
+        'mainbar 50':
+          -
+            - system-content-1587
+          -
+            - contenttabs-5296
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  header:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  intro:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  features:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  utility:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  testimonials:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  expanded:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  aside:
+    inherit:
+      outline: full_width
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+    attributes:
+      class: ''
+      variations: ''
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: full_width
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+content:
+  contenttabs-5296:
+    title: 'Content Tabs'
+    attributes:
+      class: ''
+      title: ''
+      animation: up
+      items:
+        -
+          content: "<div class=\"experience\">\n<p><strong>Lee Contracting</strong>, Pontiac, MI - <em>Leader, Business Systems Engineering</em><br>Jun 2016 - PRESENT</p>\n<ul><li>Leader of the engineering team tasked to modernize all aspects of the coding lifecycle.</li><li>Led efforts to move all code into GitHub, and created a code<br>deployment process</li><li>Worked with Rackspace to build AWS infrastructure to move the software from homespun VPS servers.</li><li>Led migration of legacy (procedural PHP) code into Symfony</li><li>Developed novel Symfony “wrapper” for use of its sessions<br>and containers in the remaining legacy code.</li><li>Built scrum sprints in JIRA.</li><li>Manage projects of remote and in-person team members</li><li>Develop strategies, priorities, and architecture decisions</li><li>Lead candidate interviews with HR, develop new talent, and do regular performance reviews with Software Engineers.</li><li>Interface with internal clients to build software requirements</li></ul>\n</div>\n<div class=\"experience\">\n<p><strong>Five More Talents</strong>, Dearborn, MI - <em>Software Engineer</em><br>Apr 2020 - PRESENT (Contract Position)</p>\n<ul><li>Lead efforts to modernize Wordpress coding life cycle by<br>transitioning to version control in GitHub</li><li>Develop documentation and procedures for performing site and theme upgrades</li><li>Interface with clients</li><li>Modify and create Wordpress themes</li></ul>\n</div>\n<div class=\"experience\">\n<p><strong>Quizzle/Bankrate</strong>, Detroit, MI - <em>Software Engineer</em><br>Dec 2013 - Jun 2016</p>\n<ul><li>Worked in a very collaborative environment</li><li>Develop free and premium credit reporting tools</li><li>Primarily worked on the backend of the software developing REST APIs for use for mobile and web applications</li><li>Developed learning questionnaires to lead clients to only relevant credit card, personal loan and mortgage recommendations</li><li>Led the development of a premium Identity Protection<br>product powered by CSID by consuming their ID Protection APIs</li></ul>\n</div>\n<div class=\"experience\">\n<p><strong>Lee Contracting</strong>, Pontiac, MI -<em> Sr. Web Developer</em><br>June 2011 - Dec 2013</p>\n<ul><li>Developed and maintained a proprietary software product called Lee Electronic Data Management System (LEDMS)</li><li>Led development of updated corporate websites (all now defunct and outsourced to a 3rd party web development firm so the team can focus on the main product)</li><li>Promoted to Sr. Level after only 1 year</li></ul>\n</div>\n<div class=\"experience\">\n<p><strong>Ohio State University</strong>, Columbus, OH -<em> Systems Developer/Engineer</em><br>June 2008 - June 2011</p>\n<ul><li>Worked for the College of Food, Agriculture, and Environmental Sciences (CFAES)</li><li>Developed websites for the Ohio 4H Camps</li><li>Built new Journal of Extension ( http://joe.org ) website and provided website statistics and technology updates to the national board of directors twice a year during board meetings</li><li>Built new National Job Bank ( http://jobs.joe.org ) website</li><li>Collaborated on rebuilds of OSU Extension, and other college-specific sites</li></ul>\n</div>"
+          title: Experience
+        -
+          content: "<div class=\"skills\" style=\"float: left; width: 33%; padding: 0 15px 15px 15px;\">\n<p><strong>Backend Technology</strong></p>\n<ul><li>OOP PHP</li><li>Symfony</li><li>Wordpress</li><li>Drupal</li><li>MySQL </li><li>PostgreSQL</li><li>REST APIs</li><li>Redis</li><li>AWS (EC2, CloudFormation, Cloudwatch, S3, CodeDeploy) </li><li>Data Integration</li></ul>\n</div>\n<div class=\"skills\" style=\"float: left; width: 33%; padding: 0 15px 15px 15px;\">\n<p><strong>Frontend Technology</strong></p>\n<ul><li>HTML5/CSS3</li><li>SCSS</li><li>Webpack</li><li>Javascript</li><li>jQuery</li><li>Bootstrap</li><li>React (novice)</li></ul>\n</div>\n<div class=\"skills\" style=\"float: left; width: 33%; padding: 0 15px 15px 15px;\">\n<p><strong>Other Technology</strong></p>\n<ul><li>Netsuite (SuiteScript, SuiteTalk, SDF, Administration)</li><li>Ultipro APIs</li><li>Linux and Windows System Administration</li><li>Local Development (Vagrant, VirtualBox, Ansible, Docker) </li><li>Scrum/Agile Project Management utilizing Atlassian JIRA</li></ul>\n</div>"
+          title: Skills
+        -
+          content: "<div class=\"education\" style=\"width: 48%; float: left\">\n<p><strong>Ohio State University</strong> - <em>Bachelor of Science in Agribusiness and Applied Economics</em><br>College of Food, Ag, and Environmental Sciences (CFAES)<br>June 2009</p>\n</div>\n<div class=\"education\" style=\"width: 48%; float: left\">\n<p><strong>Babbage &amp; Simmel</strong> - <em>Project Management Jump Start</em><br>Introduction to Project Management (PMBOK)<br>February 2009</p>\n</div>"
+          title: Education

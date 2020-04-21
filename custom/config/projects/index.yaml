@@ -1,0 +1,74 @@
+name: projects
+timestamp: 1587398802
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1587067649
+positions:
+  aside: Aside
+  sidebar: Sidebar
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  aside: Aside
+  sidebar: Sidebar
+  mainbar: Mainbar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  content:
+    system-content-1587: 'Page Content'
+  contentcubes:
+    contentcubes-6917: 'Content Cubes'
+  messages:
+    system-messages-4162: 'System Messages'
+  logo:
+    logo-2036: 'Logo / Image'
+    logo-7999: 'Logo / Image'
+  menu:
+    menu-2621: Menu
+    menu-2669: 'Footer Menu'
+  social:
+    social-4576: Social
+  copyright:
+    copyright-9463: Copyright
+  totop:
+    totop-5763: 'To Top'
+  mobile-menu:
+    mobile-menu-2195: Mobile-menu
+  position:
+    position-position-3947: Aside
+    position-position-5931: Sidebar
+inherit:
+  default:
+    navigation: navigation
+    header: header
+    intro: intro
+    features: features
+    utility: utility
+    above: above
+    testimonials: testimonials
+    expanded: expanded
+    footer: footer
+    offcanvas: offcanvas
+    system-messages-4162: system-messages-7972
+    logo-2036: logo-9608
+    menu-2621: menu-6409
+    social-4576: social-3171
+    logo-7999: logo-9571
+    copyright-9463: copyright-1736
+    menu-2669: menu-1477
+    totop-5763: totop-8670
+    mobile-menu-2195: mobile-menu-5697
+  full_width:
+    aside: aside
+    sidebar: sidebar
+    position-position-3947: position-position-4734
+    position-position-5931: position-position-3949
